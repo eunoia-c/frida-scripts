@@ -1,8 +1,15 @@
 # frida-scripts
 collection of frida scripts for mobile app pentesting and security research.
 
-### Usage
+#### Usage
 Use the runtime triage scripts to view information of the application if you don't have decompilation tool such as apktool or jadx.
 ```
 frida -U -f com.target.app -l triage_recon.js //change the app and the runtime script based on the app youre using
+```
+
+#### Expected Output
+```
+[*] --- Application Identity --- (Package Name, Version)
+[*] --- Engine Fingerprinting --- (Detected Frameworks)
+[*] --- Starting Secret & Network Listeners --- (Live Crypto Keys, URLs, and Stored Prefs)
 ```
