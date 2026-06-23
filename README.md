@@ -22,3 +22,7 @@ frida -U -f com.target.app -l triage_recon.js //change the app and the runtime s
 ```
 
 Depending on the engine being used, navigate to the corresponding engine folder. Each folder includes class-enum and a sample root bypass script.
+
+
+Fave script from frida so far:
+https://codeshare.frida.re/@ssecurityy/universal-robust-advanced-root--ssl-pinning-bypass/
